@@ -1,0 +1,12 @@
+pip
+wheel
+numpy
+pandas
+tqdm
+torch
+torchmetrics
+lightning
+dvc[gdrive]
+dvclive
+nbstripout
+
