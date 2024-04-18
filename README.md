@@ -9,7 +9,7 @@ This section explains how to do the required one-time setup for the template.
 TODO Use and delete
 
 1. Adjust values below
-2. Add requirements if you need them
+2. Add requirements to `requirements.txt` if you need them
 3. Run it all and commit
 
 ```bash
@@ -33,7 +33,7 @@ nbstripout --install --attributes .gitattributes
 
 This section explains how to set up the development environment on any subsequent computer after the template-setup is done and commited.
 
-```
+```bash
 export PYTHON_VERSION=3.11.7
 
 pyenv install $PYTHON_VERSION
